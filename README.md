@@ -1,7 +1,3 @@
-# Revision-Quiz-Questions-
-Revision Quiz Questions 
-
-
 Why do we use Git?
 
 We use git as a version control system. It allows us to track changes to a project. 
@@ -165,8 +161,38 @@ How would you handle a fetch request that received a 404r esponse from the serve
 
 404 means the pages does not exist. Throw an error. 
 
+What is an HTTP request?
 
-………………………….
+It’s a method of exchanging data 
+
+What kind of request is sent when you click a link in your browser?
+
+HTTP request 
+
+What kind of request is sent when you submit a form in your browser?
+
+HTTP request 
+
+What is an HTTP response?
+
+What does the status code of an HTTP response tell us?
+
+What are some common status codes?
+
+What are HTTP methods for?
+
+What kind of request should have aGET method?
+
+What kind of request should have a POST method?
+
+What kind of request should have a PUT method?
+
+What kind of request should have a DELETE method?
+
+What is the “body” of an HTTPrequest for?
+
+What is the “body” of an HTTPresponse for?
+
 
 
 How would you get a reference to a DOM element in your JS?
