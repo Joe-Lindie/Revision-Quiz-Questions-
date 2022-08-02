@@ -37,7 +37,7 @@ Create a new branch as raise a PR request when working on an issue
 
 What does git push origin [branch-name] do?
 
-The command git push origin [branch-name] will push the changes made to that branch. You can the raise a PR to get it merged with the main 
+The command git push origin [branch-name] will push the changes made to that branch. You can the raise a PR to get it merged with the main branch
 
 
 Why do we make pull requests instead of just changing main directly?
