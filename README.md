@@ -1,59 +1,55 @@
-## Why do we use Git?
+### Why do we use Git?
 
 We use git as a version control system. It allows us to track changes to a project. 
 
 
-# What’s the difference between Git and GitHub?
+### What’s the difference between Git and GitHub?
 
-Git is a version control system that allows you to track changes to a project 
+Git is a version control system that allows you to track changes to a project. 
+
 Github is the website where the changes are stored 
 
-# What happens when you clone a repository?
+### What happens when you clone a repository?
 
 The command ‘git clone’ allows you to clone a repository to your local drive. 
 
-# What happens when we do git pull origin main ?
+### What happens when we do git pull origin main ?
 
 The command ‘git pull origin main’ will update your local repository to the newest version 
 
-# How do we create a new branch on our local machine?
+### How do we create a new branch on our local machine?
 
 Use the command: git checkout -b [new-branch-name]
  
+### How do we control which changes will be included in the next commit?
 
-# How do we control which changes will be included in the next commit?
+You can use the command git add [name-of-file]
+For example, git add index.html 
 
-I think you can use the command: git add (But I am not 100% sure)
-
-
-# When might git add . be inappropriate?
+### When might git add . be inappropriate?
 
 When you want to add ALL the changes you’ve made to the staging area. 
 
-
-# How do we make sure our local changes don’t conflict with main?
+### How do we make sure our local changes don’t conflict with main?
 
 Create a new branch as raise a PR request when working on an issue 
 
-# What does git push origin [branch-name] do?
+### What does git push origin [branch-name] do?
 
 The command git push origin [branch-name] will push the changes made to that branch. You can the raise a PR to get it merged with the main branch
 
 
-# Why do we make pull requests instead of just changing main directly?
+### Why do we make pull requests instead of just changing main directly?
 
-The ‘main’ is what the output of your project should look like. Your code need to be reviewed / checked before merging with the main. The is why we create branches and PR requests. 
+The ‘main’ is what the output of your project should look like. Your code need to be reviewed / checked before merging with the main. This is why we create branches and PR requests. 
 
 It also helps to avoid conflicts. 
 
-
-
-
-# Why should you review your teammates’ pull requests?
+### Why should you review your teammates’ pull requests?
 
 Before merging code to the main, you want to check your teammates’ code is correct. This could cause errors to the main file if not checked. (It’s nice to look at other peoples code, too)
 
-
+--------------------------------------
 
 # Why is accessibility important?
 
