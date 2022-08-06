@@ -51,52 +51,46 @@ Before merging code to the main, you want to check your teammates’ code is cor
 
 --------------------------------------
 
-# Why is accessibility important?
+###  Why is accessibility important?
 
 Because the internet is for everybody.  
 
-How can you quickly find simple accessibility problems?
+### How can you quickly find simple accessibility problems?
 
-Google chrome has a built in checker called Lighthouse 
+We can use the built in checker on the Google Chrome browser, Lighthouse. 
 
+###  What is semantic HTML?
 
-# What is semantic HTML?
+Semantic HTML tags help with accessibility and making the document look neater. It helps screen readers know what to look for and organises your HTML.  
 
-Semantic HTML tags help with accessibility and making the document look neater (in my opinion) 
+They describe the information within the tag clearly. 
 
-They describe the information within the tag clearly 
-
-
-Why is it important to use the “correct” semantic element?
+###  Why is it important to use the “correct” semantic element?
 
 They describe the information within the tag clearly and the screen reader will user semantic tags to try and understand the information within the tag. 
 
-
-What is the <form> element used for?
+### What is the <form> element used for?
 
 The form element (or tag) is used to create a form for the user. You can have different inputs within a form. 
 
+--------------------------------------
 
-How would you use CSS variables to make a reusable colour palette?
+###  How would you use CSS variables to make a reusable colour palette?
 
 You can use ‘root’ pseudo-class in your CSS to declare colour variables 
 
-How would you use flexbox to make elements sit on a single line?
+###  How would you use flexbox to make elements sit on a single line?
 
 I would apply these two lines of code to the parent element. 
 
 Display: flex; 
 Flxs-direction: row;
 
-
-
-
-
-How would you use grid to make a layout that automatically adds columns as the screen gets wider?
+### How would you use grid to make a layout that automatically adds columns as the screen gets wider?
 
 Not sure 
 
-Why is it important to create a responsive design?
+###  Why is it important to create a responsive design?
 
 Because as developers we do not know what device the user will open the application/website on. We need the application to be accessible for small mobiles to 4k monitors. 
 
