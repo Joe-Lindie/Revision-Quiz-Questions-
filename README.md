@@ -71,34 +71,36 @@ They describe the information within the tag clearly and the screen reader will 
 
 ### What is the <form> element used for?
 
-The form element (or tag) is used to create a form for the user. You can have different inputs within a form. 
+The form element (or tag) is used to create a form for the user. You can have different inputs within a form and the user can input information. 
 
 --------------------------------------
 
-###  How would you use CSS variables to make a reusable colour palette?
+### How would you use CSS variables to make a reusable colour palette?
 
-You can use ‘root’ pseudo-class in your CSS to declare colour variables 
+You can use ‘root’ pseudo-class in your CSS to declare colour variables. You can then add the variables in your CSS.
 
-###  How would you use flexbox to make elements sit on a single line?
+### How would you use flexbox to make elements sit on a single line?
 
 I would apply these two lines of code to the parent element. 
 
-Display: flex; 
-Flxs-direction: row;
+display: flex;
+flex-direction: row;
+
+The flex direction is set to row by default, so you'll only need to apply 'display: flex' to the parent. 
 
 ### How would you use grid to make a layout that automatically adds columns as the screen gets wider?
 
-Not sure 
+grid-auto-columns: auto;
 
 ###  Why is it important to create a responsive design?
 
 Because as developers we do not know what device the user will open the application/website on. We need the application to be accessible for small mobiles to 4k monitors. 
 
-How would you structure your CSS to make it “mobile-first”?
+ ### How would you structure your CSS to make it “mobile-first”?
 
 I would write the CSS for the smallest mobile screen. I would then use media queries and different break points for different devices sizes. 
 
-
+--------------------------------------
 Why should we avoid using var to define variables?
 
 From ES6 onwards (2015 I think…?) a new way to declare variables was introduced. Why…? I think it’s related to the scope and accessing the variable 
