@@ -1,3 +1,5 @@
+## Git
+
 ### Why do we use Git?
 
 We use git as a version control system. It allows us to track changes to a project. 
@@ -51,6 +53,8 @@ Before merging code to the main, you want to check your teammates’ code is cor
 
 --------------------------------------
 
+## HTML
+
 ###  Why is accessibility important?
 
 Because the internet is for everybody.  
@@ -74,6 +78,8 @@ They describe the information within the tag clearly and the screen reader will 
 The form element (or tag) is used to create a form for the user. You can have different inputs within a form and the user can input information. 
 
 --------------------------------------
+
+## CSS
 
 ### How would you use CSS variables to make a reusable colour palette?
 
@@ -101,18 +107,26 @@ Because as developers we do not know what device the user will open the applicat
 I would write the CSS for the smallest mobile screen. I would then use media queries and different break points for different devices sizes. 
 
 --------------------------------------
-Why should we avoid using var to define variables?
 
-From ES6 onwards (2015 I think…?) a new way to declare variables was introduced. Why…? I think it’s related to the scope and accessing the variable 
+## Javascript 
 
+ ### Why should we avoid using var to define variables?
 
-How might you make a long, complex chunk of code easier to read?
+From ES6 onwards (2015 I think…?) a new way to declare variables was introduced. 
+
+It is related to scope. Function scope and block scope. If you declare a variable using var inside a function, it is accessible outside of that function. 
+
+We should avoid using Var and use let or const instead. 
+
+ ### How might you make a long, complex chunk of code easier to read?
 
 I would divide the code up into smaller functions and then call that function as and when needed. 
 
-What is a “callback”?
+###  What is a “callback”?
 
 A callback is a function passed to a different function as an argument. 
+
+--------------------------------------
 
 How would you use array.map() to create a new array with transformed values?
 
