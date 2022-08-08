@@ -128,23 +128,41 @@ A callback is a function passed to a different function as an argument.
 
 --------------------------------------
 
-How would you use array.map() to create a new array with transformed values?
+## Array Methods 
 
-Array.map() takes a function and creates a new array. I would write the function to transform the values 
+###  How would you use array.map() to create a new array with transformed values?
+
+Array.map() takes an array and creates a new array with the results. 
+
+const array = [1, 2, 3, 4]
+const mapMethod = array.map(num => num + 1)
+
+console.log(mapMethod)
+//[2,3,4,5]
 
 
-How would you use array.filter() to create a new array with certain values removed?
+ ### How would you use array.filter() to create a new array with certain values removed?
 
-Array.filter() takes a function, and elements in an array passed to that function are returned if the pass a ‘test’ 
+Array.filter() takes an array and creates a 'filtered' copy with values that pass a test. 
 
-The  ‘certain values removed’ would be the test 
+The  ‘certain values removed’ would fail the test
+
+const numbers = [1, 2, 3, 4]
+const result = numbers.filter(num => num > 2)
+
+console.log(result) // [3, 4]
 
 
-How would you use array.find() to get a single value from an array?
+### How would you use array.find() to get a single value from an array?
 
 Array.find() returns the first element in an array that passes a test. The ‘single value’ would be the value that passes the provided test. 
 
+const numbers = [1, 2, 3, 4]
+const result = numbers.find(num => num > 2)
 
+console.log(result) // [3]
+
+--------------------------------------
 
 
 What is a promise?
