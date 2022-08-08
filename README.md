@@ -163,31 +163,39 @@ const result = numbers.find(num => num > 2)
 console.log(result) // [3]
 
 --------------------------------------
+## Promises & fetch
+
+### What is a promise?
+
+A promise is other pending, fulfilled or rejected. It represents executing/not executing an asynchronous operation
+
+### How do promises help manage asynchronous code?
+
+A promise represents the completion of an asynchronous function. It might return a value. 
+
+### What does a promise’s.then method return?
+
+The then() method always returns a promise 
+
+### How could you chain promises together to avoid “callback hell”?
+
+You can chain promise together using the .then() 
+
+### How would you handle a fetch request that failed to get a response from the server?
+
+I would use the response.ok method to check status codes. If it's not ok, I would throw a new error 
+
+### How would you handle a fetch request that received a 404 response from the server?
+
+I would use the response.ok method to check status codes. If it's not ok, I would throw a new error 
+
+--------------------------------------
+
+### What is an HTTP request?
+
+It’s a method of exchanging data
 
 
-What is a promise?
-
-A promise is other pending, fulfilled or rejected 	How do promises help manage asynchronous code?
-
-What does a promise’s.then method return?
-
-The then method returns another promise 
-
-How could you chain promises together to avoid “callback hell”?
-
-Keep using the .then 
-
-How would you handle a fetch request that failed to get a response from the server?
-
-I would throw a new error 
-
-How would you handle a fetch request that received a 404r esponse from the server?
-
-404 means the pages does not exist. Throw an error. 
-
-What is an HTTP request?
-
-It’s a method of exchanging data 
 
 What kind of request is sent when you click a link in your browser?
 
