@@ -191,39 +191,67 @@ I would use the response.ok method to check status codes. If it's not ok, I woul
 
 --------------------------------------
 
+## HTTP 
+
 ### What is an HTTP request?
+Hypertext Transfer Protocol (HTTP)
+HTTP makes a request to accsess some bit of information. The request is made to the URL.  
 
-It’s a method of exchanging data
+You can make HTTP requests using the fetch function. 
 
+### What kind of request is sent when you click a link in your browser?
 
+GET equest 
 
-What kind of request is sent when you click a link in your browser?
+###  What kind of request is sent when you submit a form in your browser?
 
-HTTP request 
+POST request 
 
-What kind of request is sent when you submit a form in your browser?
+### What is an HTTP response?
 
-HTTP request 
+It's the response you get from your request. 
 
-What is an HTTP response?
+###  What does the status code of an HTTP response tell us?
 
-What does the status code of an HTTP response tell us?
+The HTTP response tells you if a request has been completed / or not
 
-What are some common status codes?
+### What are some common status codes?
 
-What are HTTP methods for?
+404 - not found 
+200 - okay
 
-What kind of request should have aGET method?
+Click [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) for more. 
 
-What kind of request should have a POST method?
+###  What are HTTP methods for?
 
-What kind of request should have a PUT method?
+The HTTP method indicates which action should be used. GET, POST, PUT etc. 
 
-What kind of request should have a DELETE method?
+### What kind of request should have a GET method?
 
-What is the “body” of an HTTPrequest for?
+Requesting or getting information from an API. 
 
-What is the “body” of an HTTPresponse for?
+### What kind of request should have a POST method?
+
+posting or sending information // Forms 
+
+### What kind of request should have a PUT method?
+
+PUT has similar properties to POST, but PUT ..
+The HTTP PUT method is used to update or replace an existing resource on the server
+
+### What kind of request should have a DELETE method?
+
+I am not sure what kind of requested should use the DELETE method.
+
+The HTTP DELETE method is used to delete a resource from the server.
+
+### What is the “body” of an HTTPrequest for?
+
+The body is optional -  It's data requested by the client 
+
+### What is the “body” of an HTTPresponse for?
+
+--------------------------------------
 
 
 
