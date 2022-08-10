@@ -278,7 +278,7 @@ idname.innerHTML = 'change to this'
 
 You can use: Document.createElement(). Create an element in the DOM and add content to it. 
 
-### When might the<template> element be useful?
+### When might the template element be useful?
 
 The HTML template element does NOT render when the page is loaded. If you have HTML elements that are awating valuse, you can wrap them in template tags.
 
