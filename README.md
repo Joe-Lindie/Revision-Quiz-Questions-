@@ -280,7 +280,7 @@ You can use: Document.createElement(). Create an element in the DOM and add cont
 
 ### When might the<template> element be useful?
 
-The HTML <template> element does NOT render when the page is loaded. If you have HTML elements that are awating valuse, you can wrap them in <template> tags.
+The HTML template element does NOT render when the page is loaded. If you have HTML elements that are awating valuse, you can wrap them in template tags.
 
 Maybe creating the same content multiple times. Rather than creating a new element every time. 
 
