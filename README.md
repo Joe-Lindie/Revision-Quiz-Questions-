@@ -252,37 +252,56 @@ The body is optional -  It's data requested by the client
 ### What is the “body” of an HTTPresponse for?
 
 --------------------------------------
+## DOM
 
-
-
-How would you get a reference to a DOM element in your JS?
+### How would you get a reference to a DOM element in your JS?
 
 By their ID or class name 
-
 Document.getelementbyid()
+Document.querySelectorAll()
+Document.querySelector()
 
-How would you get references to multiple DOM elements at once in your JS?
+### How would you get references to multiple DOM elements at once in your JS?
 
-I would use: Document .queryselectorAll()
+I would use: Document.queryselectorAll()
 
-How would you update properties of a DOM element?
+### How would you update properties of a DOM element?
 
-What’s the difference between a “property” and an “attribute”?
+If you have a DOM element you want to update, I would use: 
 
-What are some different ways to add content inside a DOM element?
+idname.textConent = 'change to this'
+idname.innerHTML = 'change to this'
 
-You can use: Document.createElement()
+### What’s the difference between a “property” and an “attribute”?
 
-When might the<template> element be useful?
+### What are some different ways to add content inside a DOM element?
 
-What are the different ways to add event handlers to elements?
+You can use: Document.createElement(). Create an element in the DOM and add content to it. 
 
-You can use onclick() but I believe this isn’t used anymore. 
+### When might the<template> element be useful?
 
-Why is addEventListener the safest way to add an event handler?
+The HTML <template> element does NOT render when the page is loaded. If you have HTML elements that are awating valuse, you can wrap them in <template> tags.
 
-How can you access submitted form values in your JS?
+Maybe creating the same content multiple times. Rather than creating a new element every time. 
 
+### What are the different ways to add event handlers to elements?
+
+You can use onclick() but I believe this isn’t used anymore. (or good practice)
+
+I may use something like element.addEventListener("click", myFunction)
+
+### Why is addEventListener the safest way to add an event handler?
+
+The eventlsitener attaches the event handler to that element. You can also add multiple eventlisteners to the same element. 
+
+###  How can you access submitted form values in your JS?
+
+using the .value property. 
+
+<input type="text" name="name" id="uniqueID" value="value" />
+let nameValue = document.getElementById("uniqueID").value;
+
+--------------------------------------
 
 
 Why are tests useful?
