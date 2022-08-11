@@ -302,33 +302,39 @@ using the .value property.
 let nameValue = document.getElementById("uniqueID").value;
 
 --------------------------------------
+## Tests
 
+### Why are tests useful?
 
-Why are tests useful?
+Tests are useful to make sure the code is operating the way we want it to given the inputs/outputs. 
 
-Tests are useful to make sure the code is operating the way we want it to give the inputs/outputs. 
+### What is the difference between unit and integration tests?
 
-What is the difference between unit and integration tests?
+Unit testing is when you test individual functions to check whether they are acting as expected. 
 
-Unit testing is when you test individual functions. 
-Integration testing is testing the entire function 
+Integration testing is testing the whether the code integrates with things outside of our control. 
 
-What kind of code is easier to test?
+### What kind of code is easier to test?
 
-Why should your tests be isolated from each other?
+Code that returns fixed values?? 
 
-Because you should not rely on a previous test. Each test should test a section individually. 
+### Why should your tests be isolated from each other?
 
-What is Test Driven Development (TDD)?
+If you have a large programme with many lines of code, you should not rely on that code to run your test. Each test test should be individually/independent. 
+
+You'll return accurate results 
+
+### What is Test Driven Development (TDD)?
 
 When you write a test before working the function for it. Write the test in it’s most simple form and then make it more complex step by step. 
 
-When might TDD be a useful process to follow?
+### When might TDD be a useful process to follow?
 
 When working on larger more complex programmes. 
 
+--------------------------------------
 
-What process would you take to find out why your code isn’t working?
+### What process would you take to find out why your code isn’t working?
 
 Lots of console.log(). Using the debugger tool. 
 
