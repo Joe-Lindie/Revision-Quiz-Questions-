@@ -333,15 +333,16 @@ When you write a test before working the function for it. Write the test in it�
 When working on larger more complex programmes. 
 
 --------------------------------------
+## Debugging
 
 ### What process would you take to find out why your code isn’t working?
 
 Lots of console.log(). Using the debugger tool. 
 
-What tools do JS/dev tools have to help debug your code?
+### What tools do JS/dev tools have to help debug your code?
 
+console / breakpoints inside Chrome can be used for debugging 
 
-
-At what point should you ask for someone else’s help?
+### At what point should you ask for someone else’s help?
 
 I think an appropriate amount of time would be 40 minutes stuck on a problem without moving forward. 
